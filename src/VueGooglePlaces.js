@@ -182,8 +182,8 @@ export default {
     parsePlace (place) {
       const returnData = {}
 
-      if (place.formatted_address !== undefined) {
-        this.textValue = place.formatted_address
+      if (place.name !== undefined) {
+        this.textValue = place.name
         // document.getElementById(this.id).value = place.formatted_address
       }
 
